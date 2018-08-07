@@ -1,0 +1,28 @@
+{
+  "name": "cn_test",
+  "version": "1.0.0",
+  "description": "持久化测试",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "mocha": "mocha test/simple.js",
+    "cover":"istanbul cover node_modules/mocha/bin/_mocha test/simple.js"
+ 
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/woliuCN/cn_test.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/woliuCN/cn_test/issues"
+  },
+  "homepage": "https://github.com/woliuCN/cn_test#readme",
+  "devDependencies": {
+    "chai": "^4.1.2",
+    "istanbul": "^0.4.5",
+    "mocha": "^5.2.0"
+  }
+}
